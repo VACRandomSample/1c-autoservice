@@ -225,6 +225,7 @@
 			<Subsystem>Организация</Subsystem>
 			<Subsystem>ОказаниеУслуг</Subsystem>
 			<Subsystem>Бухгалтерия</Subsystem>
+			<CommonModule>РаботаСДокументами</CommonModule>
 			<Catalog>Клиенты</Catalog>
 			<Catalog>Должности</Catalog>
 			<Catalog>Сотрудники</Catalog>
@@ -232,6 +233,8 @@
 			<Catalog>Склады</Catalog>
 			<Catalog>ЕдиницыИзмерения</Catalog>
 			<Catalog>Организация</Catalog>
+			<Document>ПриходнаяНакладная</Document>
+			<Document>ОказаниеУслуги</Document>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

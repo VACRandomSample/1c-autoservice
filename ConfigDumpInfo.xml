@@ -26,16 +26,42 @@
 			<Metadata name="Catalog.Сотрудники.TabularSection.ТрудоваяДеятельность.Attribute.ОкончаниеРаботы" id="9f10e44f-3dca-401d-af02-94b6e3eb6697"/>
 			<Metadata name="Catalog.Сотрудники.TabularSection.ТрудоваяДеятельность" id="dc8ad3e6-1015-4772-b06c-25b570146ae8"/>
 		</Metadata>
-		<Metadata name="Configuration.СервисноеОбслуживание" id="57743db8-28ff-444f-9782-70cdd98bee4a" configVersion="e8ff3590d94d5c47ae182961f0fbe5a600000000"/>
+		<Metadata name="CommonModule.РаботаСДокументами" id="40bbd953-9a7a-495f-ba65-70cc84d132b9" configVersion="d9eb3cc186b5644cb209839cb38450fe00000000"/>
+		<Metadata name="CommonModule.РаботаСДокументами.Module" id="40bbd953-9a7a-495f-ba65-70cc84d132b9.0" configVersion="af38ee330e31e34089341668140b321a00000000"/>
+		<Metadata name="Configuration.СервисноеОбслуживание" id="57743db8-28ff-444f-9782-70cdd98bee4a" configVersion="db17f9c9317cd24d8be60f2c4faa23ac00000000"/>
 		<Metadata name="Configuration.СервисноеОбслуживание.CommandInterface" id="74c1e34d-9f3c-435e-97f1-0d5c0e066cc9.a" configVersion="d507608ffbaf46439b1bf97a1959f5d200000000"/>
+		<Metadata name="Document.ОказаниеУслуги" id="44c2065f-54c3-43d9-b132-21c14c48c60f" configVersion="f83c61da121c464286459555f6d6c48900000000">
+			<Metadata name="Document.ОказаниеУслуги.Attribute.Исполнитель" id="23d99c2e-7b53-476d-9aa2-c5668c95d61e"/>
+			<Metadata name="Document.ОказаниеУслуги.TabularSection.ПереченьНоменклатуры.Attribute.Сумма" id="25c913de-86f2-477b-9edb-45c442aa027e"/>
+			<Metadata name="Document.ОказаниеУслуги.TabularSection.ПереченьНоменклатуры.Attribute.Количество" id="53174140-7402-40f9-aa93-2979ceaea393"/>
+			<Metadata name="Document.ОказаниеУслуги.TabularSection.ПереченьНоменклатуры.Attribute.Цена" id="6d40a891-9e95-470d-93b4-97160d7e749f"/>
+			<Metadata name="Document.ОказаниеУслуги.Attribute.Клиент" id="746b0c20-c297-4692-ad49-8e20574e2d44"/>
+			<Metadata name="Document.ОказаниеУслуги.TabularSection.ПереченьНоменклатуры.Attribute.ЕдИзм" id="a4170344-aadf-4581-82ee-f95a77d677fc"/>
+			<Metadata name="Document.ОказаниеУслуги.TabularSection.ПереченьНоменклатуры.Attribute.Номенклатура" id="cfa3c717-6a0b-409e-8b3c-cc83c661b34f"/>
+			<Metadata name="Document.ОказаниеУслуги.TabularSection.ПереченьНоменклатуры" id="dfe7b239-35c7-49c2-a117-74cd7d6e002e"/>
+			<Metadata name="Document.ОказаниеУслуги.Attribute.Склад" id="ea71af39-db9e-4c02-b66f-38b3e4b1bb45"/>
+		</Metadata>
+		<Metadata name="Document.ОказаниеУслуги.Form.ФормаДокумента" id="85c1bcc7-1f9a-414c-870a-94185fd22f0d" configVersion="3dc7a3778dcc2440af0a8b63d33735b200000000"/>
+		<Metadata name="Document.ОказаниеУслуги.Form.ФормаДокумента.Form" id="85c1bcc7-1f9a-414c-870a-94185fd22f0d.0" configVersion="610db4376d82234f9364dbf251fce93400000000"/>
+		<Metadata name="Document.ПриходнаяНакладная" id="aa40ae53-de23-4d98-aa6b-179bb5506e66" configVersion="629315e89b718447a6ecb964a7e0d19b00000000">
+			<Metadata name="Document.ПриходнаяНакладная.TabularSection.Материалы.Attribute.Материал" id="0a423774-7811-41ec-a265-bb51ce2944c2"/>
+			<Metadata name="Document.ПриходнаяНакладная.TabularSection.Материалы.Attribute.Сумма" id="72fcaea3-1b8c-4603-9b3c-0e6331aee8d3"/>
+			<Metadata name="Document.ПриходнаяНакладная.TabularSection.Материалы.Attribute.ЕдИзм" id="862a20b5-6e6a-45e0-a106-88672433f840"/>
+			<Metadata name="Document.ПриходнаяНакладная.TabularSection.Материалы.Attribute.Количество" id="970b4dc6-cdf7-48d5-ba79-1d2053d05f38"/>
+			<Metadata name="Document.ПриходнаяНакладная.TabularSection.Материалы.Attribute.Цена" id="d872b637-0d43-4e7e-a49f-79f787b2d8fe"/>
+			<Metadata name="Document.ПриходнаяНакладная.TabularSection.Материалы" id="e4a90788-c702-4e5e-9217-63e27fb671d8"/>
+			<Metadata name="Document.ПриходнаяНакладная.Attribute.Склад" id="e81f5a03-addb-4ce9-a1bb-e9aa9bcbf54d"/>
+		</Metadata>
+		<Metadata name="Document.ПриходнаяНакладная.Form.ФормаДокумента" id="7f053c88-f793-46e4-85f6-91ab9ef2ecd0" configVersion="146148d50f639241a5b8dfaf88ee843400000000"/>
+		<Metadata name="Document.ПриходнаяНакладная.Form.ФормаДокумента.Form" id="7f053c88-f793-46e4-85f6-91ab9ef2ecd0.0" configVersion="32597825412f8542b7a2c0c740771b2500000000"/>
 		<Metadata name="Language.Русский" id="20d1bf62-e789-4090-aece-8d7bca34a9e2" configVersion="9862172bad11ea4f931e412d2db30d1000000000"/>
-		<Metadata name="Subsystem.Бухгалтерия" id="1d7ce79c-5a0d-413d-816c-6ef28b7d266a" configVersion="a9784399e86c0c4db3e359772f5b003100000000"/>
+		<Metadata name="Subsystem.Бухгалтерия" id="1d7ce79c-5a0d-413d-816c-6ef28b7d266a" configVersion="2a5fa772e617254eb436d57202f4856c00000000"/>
 		<Metadata name="Subsystem.КадровыйУчет" id="d9e55210-a3bf-48ce-9a28-2a3adc4b4fe2" configVersion="156da57c56643d4a8c9939f98f51a3b000000000"/>
-		<Metadata name="Subsystem.ОказаниеУслуг" id="8ac94c8c-8f24-4c7e-af9d-54a06eb6d265" configVersion="6a689059e6a203439459fe99b504c02200000000"/>
+		<Metadata name="Subsystem.ОказаниеУслуг" id="8ac94c8c-8f24-4c7e-af9d-54a06eb6d265" configVersion="6d7bc2282d0f7d42a352a6ed2c1f952200000000"/>
 		<Metadata name="Subsystem.ОказаниеУслуг.CommandInterface" id="8ac94c8c-8f24-4c7e-af9d-54a06eb6d265.1" configVersion="fe015257788d0c4089a12725f31495ed00000000"/>
 		<Metadata name="Subsystem.Организация" id="90f85861-d385-444c-abd5-15c4f1c900ff" configVersion="779a7745afe52041ac76bea739bf6a8200000000"/>
 		<Metadata name="Subsystem.Организация.CommandInterface" id="90f85861-d385-444c-abd5-15c4f1c900ff.1" configVersion="eeca7b11dcd2c24596f7d2db7868765500000000"/>
-		<Metadata name="Subsystem.УчетМатериалов" id="d5cf86e7-eea4-4ae0-8651-aeaf461b75e6" configVersion="680040b31cc2fc499ed82cdca052068900000000"/>
-		<Metadata name="Subsystem.УчетМатериалов.CommandInterface" id="d5cf86e7-eea4-4ae0-8651-aeaf461b75e6.1" configVersion="4da9ccc6ed413747bb13d76b4a6da7cc00000000"/>
+		<Metadata name="Subsystem.УчетМатериалов" id="d5cf86e7-eea4-4ae0-8651-aeaf461b75e6" configVersion="d1a85ca9ce45ac478180fd208ca7f61500000000"/>
+		<Metadata name="Subsystem.УчетМатериалов.CommandInterface" id="d5cf86e7-eea4-4ae0-8651-aeaf461b75e6.1" configVersion="8f737955eaf47449b64f8511d4064e2800000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
